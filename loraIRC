@@ -44,6 +44,7 @@ irc.send(f"JOIN {channel}\r\n".encode('utf-8'))
 
 def send_message_to_channel(message):
     irc.send(f"PRIVMSG {channel} :{message}\r\n".encode('utf-8'))
+    print(f"PRIVMSG {channel} :{message}\r\n".encode('utf-8'))
 
 # Function to handle incoming LoRa messages
 def handle_lora():
