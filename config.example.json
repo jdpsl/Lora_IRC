@@ -1,0 +1,22 @@
+{
+  "irc": {
+    "server": "irc.libera.chat",
+    "port": 6697,
+    "channel": "#lora",
+    "nickname": "LoraBot",
+    "use_ssl": true,
+    "nickserv": {
+      "enabled": false,
+      "password": "your_nickserv_password_here"
+    },
+    "sasl": {
+      "enabled": false,
+      "username": "LoraBot",
+      "password": "your_sasl_password_here"
+    }
+  },
+  "serial": {
+    "port": "/dev/ttyUSB0",
+    "baud_rate": 9600
+  }
+}
